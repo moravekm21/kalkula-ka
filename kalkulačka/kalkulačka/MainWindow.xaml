@@ -22,30 +22,30 @@
             <RowDefinition/>
 
         </Grid.RowDefinitions>
-        <Button Content="%" HorizontalAlignment="Center" VerticalAlignment="Center" Height="197" Width="200" FontSize="75"/>
-        <Button Grid.Column="1" Content="CE" HorizontalAlignment="Center" VerticalAlignment="Center" Height="197" Width="198" FontSize="75"/>
-        <Button Grid.Column="2" Content="C" HorizontalAlignment="Center" VerticalAlignment="Center" Height="197" Width="202" FontSize="75"/>
-        <Button Grid.Column="3" Content="DEL" HorizontalAlignment="Center" VerticalAlignment="Center" Height="197" Width="200" FontSize="75"/>
-        <Button Content="1/x" HorizontalAlignment="Center" VerticalAlignment="Center" Height="198" Width="200" Grid.Row="1" FontSize="75"/>
-        <Button Grid.Column="1" Content="x²" HorizontalAlignment="Center" VerticalAlignment="Center" Height="198" Width="200" Grid.Row="1" FontSize="75"/>
-        <Button Grid.Column="2" Content="√" HorizontalAlignment="Center" VerticalAlignment="Center" Height="198" Width="201" Grid.Row="1" FontSize="75"/>
-        <Button Grid.Column="3" Content="÷" HorizontalAlignment="Center" VerticalAlignment="Center" Height="198" Width="200" Grid.Row="1" FontSize="75"/>
-        <Button Content="7" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="197" Width="200" FontSize="75"/>
-        <Button Grid.Column="1" Content="8" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="197" Width="200" FontSize="75"/>
-        <Button Grid.Column="2" Content="9" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="197" Width="201" FontSize="75"/>
-        <Button Grid.Column="3" Content="x" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="197" Width="200" FontSize="75"/>
-        <Button Content="4" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="197" Width="202" FontSize="75"/>
-        <Button Grid.Column="1" Content="5" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="197" Width="198" FontSize="75"/>
-        <Button Grid.Column="2" Content="6" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="197" Width="200" FontSize="75"/>
-        <Button Grid.Column="3" Content="-" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="197" Width="200" FontSize="75"/>
-        <Button Content="1" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="197" Width="201" FontSize="75"/>
-        <Button Grid.Column="1" Content="2" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="198" Width="198" FontSize="75"/>
-        <Button Grid.Column="2" Content="3" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="198" Width="202" FontSize="75"/>
-        <Button Grid.Column="3" Content="+" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="198" Width="200" FontSize="75"/>
-        <Button Content="+/-" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="197" Width="201" FontSize="75"/>
-        <Button Grid.Column="1" Content="0" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="197" Width="198" FontSize="75"/>
-        <Button Grid.Column="2" Content="," Grid.Row="5" VerticalAlignment="Center" Height="197" Margin="0,0,199,0" Grid.ColumnSpan="2" FontSize="75"/>
-        <Button Grid.Column="3" Content="=" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="197" Width="200" FontSize="75" Background="#FF44AFF3"/>
+        <Button Name="procento" Content="%" HorizontalAlignment="Center" VerticalAlignment="Center" Height="197" Width="200" FontSize="75" Background="#FFB0B0B0"/>
+        <Button Name="CE" Grid.Column="1" Content="CE" HorizontalAlignment="Center" VerticalAlignment="Center" Height="197" Width="198" FontSize="75" Background="#FFB0B0B0"/>
+        <Button Name="C" Grid.Column="2" Content="C" HorizontalAlignment="Center" VerticalAlignment="Center" Height="197" Width="202" FontSize="75" Background="#FFB0B0B0"/>
+        <Button Name="DEL" Grid.Column="3" Content="DEL" HorizontalAlignment="Center" VerticalAlignment="Center" Height="197" Width="200" FontSize="75" Background="#FFB0B0B0"/>
+        <Button Name="polovina" Content="1/x" HorizontalAlignment="Center" VerticalAlignment="Center" Height="198" Width="200" Grid.Row="1" FontSize="75"/>
+        <Button Name="x2" Grid.Column="1" Content="x²" HorizontalAlignment="Center" VerticalAlignment="Center" Height="198" Width="200" Grid.Row="1" FontSize="75"/>
+        <Button Name="odmocnina" Grid.Column="2" Content="√" HorizontalAlignment="Center" VerticalAlignment="Center" Height="198" Width="201" Grid.Row="1" FontSize="75"/>
+        <Button Name="deleno" Grid.Column="3" Content="÷" HorizontalAlignment="Center" VerticalAlignment="Center" Height="198" Width="200" Grid.Row="1" FontSize="75" Background="#FFB0B0B0"/>
+        <Button Name="sedm" Content="7" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="197" Width="200" FontSize="75"/>
+        <Button Name="osm" Grid.Column="1" Content="8" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="197" Width="200" FontSize="75"/>
+        <Button Name="devet" Grid.Column="2" Content="9" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="197" Width="201" FontSize="75"/>
+        <Button Name="nasobeni" Grid.Column="3" Content="x" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="197" Width="200" FontSize="75" Background="#FFB0B0B0"/>
+        <Button Name="ctyri" Content="4" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="197" Width="202" FontSize="75"/>
+        <Button Name="pet" Grid.Column="1" Content="5" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="197" Width="198" FontSize="75"/>
+        <Button Name="sest" Grid.Column="2" Content="6" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="197" Width="200" FontSize="75"/>
+        <Button Name="odcitani" Grid.Column="3" Content="-" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="197" Width="200" FontSize="75" Background="#FFB0B0B0"/>
+        <Button Name="jedna" Content="1" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="197" Width="201" FontSize="75"/>
+        <Button Name="dva" Grid.Column="1" Content="2" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="198" Width="198" FontSize="75"/>
+        <Button Name="tri" Grid.Column="2" Content="3" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="198" Width="202" FontSize="75"/>
+        <Button Name="scitani" Grid.Column="3" Content="+" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="198" Width="200" FontSize="75" Background="#FFB0B0B0"/>
+        <Button Name="negace" Content="+/-" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="197" Width="201" FontSize="75" Background="#FFB0B0B0"/>
+        <Button Name="nuĺa" Grid.Column="1" Content="0" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="197" Width="198" FontSize="75"/>
+        <Button Name="carka" Grid.Column="2" Content="," Grid.Row="5" VerticalAlignment="Center" Height="197" Margin="0,0,199,0" Grid.ColumnSpan="2" FontSize="75" Background="#FFB0B0B0"/>
+        <Button Name="rovnase" Grid.Column="3" Content="=" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="197" Width="200" FontSize="75" Background="#FF44AFF3"/>
         <TextBlock Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="200" Margin="-1,-217,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="800" FontSize="75"/>
 
     </Grid>
