@@ -22,7 +22,11 @@ namespace kalkulačka
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();        
         }
+    
+       
     }
+
+
 }

@@ -44,9 +44,9 @@
         <Button Name="scitani" Grid.Column="3" Content="+" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="198" Width="200" FontSize="75" Background="#FFB0B0B0"/>
         <Button Name="negace" Content="+/-" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="197" Width="201" FontSize="75" Background="#FFB0B0B0"/>
         <Button Name="nuĺa" Grid.Column="1" Content="0" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="197" Width="198" FontSize="75"/>
-        <Button Name="carka" Grid.Column="2" Content="," Grid.Row="5" VerticalAlignment="Center" Height="197" Margin="0,0,199,0" Grid.ColumnSpan="2" FontSize="75" Background="#FFB0B0B0"/>
+        <Button Name="carka" Grid.Column="1" Content="," Grid.Row="5" VerticalAlignment="Center" Height="163" Margin="199,0,199,0" Grid.ColumnSpan="3" FontSize="75" Background="#FFB0B0B0"/>
         <Button Name="rovnase" Grid.Column="3" Content="=" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Height="197" Width="200" FontSize="75" Background="#FF44AFF3"/>
-        <TextBlock Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="200" Margin="-1,-217,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="800" FontSize="75"/>
+        <TextBlock Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="200" Margin="-1,-217,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="800" FontSize="75"/>
 
     </Grid>
 </Window>
